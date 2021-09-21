@@ -1,0 +1,18 @@
+anshuman@anshuman:~/Learning/Projects/Kafka/kafka-docker$ ./start-kafka-shell.sh 172.17.0.1
+
+bash-5.1# $KAFKA_HOME/bin/kafka-topics.sh --create --topic test --partitions 4 --replication-factor 2 --bootstrap-server 'broker-list.sh'
+
+Exception in thread "main" org.apache.kafka.common.KafkaException: Failed to create new KafkaAdminClient
+        at org.apache.kafka.clients.admin.KafkaAdminClient.createInternal(KafkaAdminClient.java:535)
+        at org.apache.kafka.clients.admin.Admin.create(Admin.java:65)
+        at kafka.admin.TopicCommand$AdminClientTopicService$.createAdminClient(TopicCommand.scala:228)
+        at kafka.admin.TopicCommand$AdminClientTopicService$.apply(TopicCommand.scala:232)
+        at kafka.admin.TopicCommand$.main(TopicCommand.scala:59)
+        at kafka.admin.TopicCommand.main(TopicCommand.scala)
+Caused by: org.apache.kafka.common.config.ConfigException: Invalid url in bootstrap.servers: broker-list.sh
+        at org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses(ClientUtils.java:59)
+        at org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses(ClientUtils.java:48)
+        at org.apache.kafka.clients.admin.KafkaAdminClient.createInternal(KafkaAdminClient.java:489)
+        ... 5 more
+bash-5.1#
+
