@@ -1,4 +1,52 @@
+anshuman@anshuman:~/Learning/Projects/Kafka/kafka-docker$ cat docker-compose.yml
+version: '2'
+services:
+  zookeeper:
+    image: wurstmeister/zookeeper
+    ports:
+      - "2181:2181"
+  kafka:
+    build: .
+    ports:
+      - "9092"
+    environment:
+      DOCKER_API_VERSION: 1.22
+      KAFKA_ADVERTISED_HOST_NAME: 172.17.0.1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+
+
+anshuman@anshuman:~/Learning/Projects/Kafka/kafka-docker$ ifconfig
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        inet6 fe80::42:2aff:fe0b:96ed  prefixlen 64  scopeid 0x20<link>
+        ether 02:42:2a:0b:96:ed  txqueuelen 0  (Ethernet)
+        RX packets 246  bytes 19679 (19.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 421  bytes 63243 (63.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+
+anshuman@anshuman:~/Learning/Projects/Kafka/kafka-docker$ docker-compose up -d
+Creating network "kafka-docker_default" with the default driver
+Creating kafka-docker_kafka_1     ... done
+Creating kafka-docker_zookeeper_1 ... done
+
+
+
+anshuman@anshuman:~/Learning/Projects/Kafka/kafka-docker$ docker-compose ps
+          Name                        Command               State                                  Ports
+----------------------------------------------------------------------------------------------------------------------------------------
+kafka-docker_kafka_1       start-kafka.sh                   Up      0.0.0.0:49174->9092/tcp,:::49174->9092/tcp
+kafka-docker_zookeeper_1   /bin/sh -c /usr/sbin/sshd  ...   Up      0.0.0.0:2181->2181/tcp,:::2181->2181/tcp, 22/tcp, 2888/tcp, 3888/tcp
+
+
+
 anshuman@anshuman:~/Learning/Projects/Kafka/kafka-docker$ ./start-kafka-shell.sh 172.17.0.1
+
 
 bash-5.1# $KAFKA_HOME/bin/kafka-topics.sh --create --topic test --partitions 4 --replication-factor 2 --bootstrap-server 'broker-list.sh'
 
