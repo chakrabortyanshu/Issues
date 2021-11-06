@@ -1,0 +1,772 @@
+anshuman@anshuman:~/Learning/Tutorials/linux/softwares/mac/mongodb$ docker logs e0d > mongo_express_log.log
+(node:9) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:9) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:9) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:9) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:8) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:8) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:8) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:8) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:8) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:8) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:8) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:8) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:8) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:8) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:8) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:8) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:7) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:7) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:8) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Could not connect to database using connectionString: mongodb://root:example@mongo:27017/"
+(node:8) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [mongo:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at Pool.<anonymous> (/node_modules/mongodb/lib/core/topologies/server.js:441:11)
+    at Pool.emit (events.js:314:20)
+    at /node_modules/mongodb/lib/core/connection/pool.js:564:14
+    at /node_modules/mongodb/lib/core/connection/pool.js:1000:11
+    at /node_modules/mongodb/lib/core/connection/connect.js:32:7
+    at callback (/node_modules/mongodb/lib/core/connection/connect.js:300:5)
+    at Socket.<anonymous> (/node_modules/mongodb/lib/core/connection/connect.js:330:7)
+    at Object.onceWrapper (events.js:420:28)
+    at Socket.emit (events.js:314:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:8) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:8) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:7) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+anshuman@anshuman:~/Learning/Tutorials/linux/softwares/mac/mongodb$ 
+
